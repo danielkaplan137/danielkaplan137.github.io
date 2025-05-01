@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "default"
+site_theme               : "bright"
 title                    : "Daniel Kaplan"
 title_separator          : "-"
 name                     : &name "Daniel Kaplan"
@@ -26,7 +26,7 @@ author:
   name             : "Daniel"
   pronouns         : # example: "she/her"  
   bio              : "Condensed Matter Theorist"
-  location         : ""
+  #location         : ""
   employer         : "Rutgers University, New Jersey"
   uri              : # URL
   email            : "d.kaplan1@rutgers.edu" 
