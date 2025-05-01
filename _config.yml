@@ -25,11 +25,11 @@ author:
   avatar           : "headshot.jpg"
   name             : "Daniel"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  bio              : "Condensed Matter Theorist"
+  location         : ""
+  employer         : "Rutgers University, New Jersey"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "d.kaplan1@rutgers.edu" 
 
   # Academic websites
   academia         : # URL
