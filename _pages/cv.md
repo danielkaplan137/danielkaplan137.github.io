@@ -13,7 +13,7 @@ Education
 ======
 * Ph.D in Theoretical Condensed Matter Physics, Weizmann Institute of Science, 2023
   * Advisor: Prof. Binghai Yan, title: "Nonlinear response of magnetic topological materials"
-* M.Sc. in Condensed MAtter Physics, Weizmann Institute of Science, 2018
+* M.Sc. in Condensed Matter Physics, Weizmann Institute of Science, 2018
   * Advisor: Prof. Shahal Ilani, title: "Improving the Properties of the Carbon nanotude Single Electron Transistor"
 * B.Sc. in Physics, Ben Gurion Unviersity of the Negev, 2016
   * Cum Laude
