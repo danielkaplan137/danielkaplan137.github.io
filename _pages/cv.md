@@ -9,6 +9,12 @@ redirect_from:
 
 {% include base_path %}
 
+Professional Appointments
+======
+* (2023-Present)
+  * Postdoctoral Research Associate, Center for Materials Theory, Rutgers University
+  * Abrahams Postdoctoral Fellow
+
 Education
 ======
 * Ph.D in Theoretical Condensed Matter Physics, Weizmann Institute of Science, 2023
@@ -23,20 +29,14 @@ Education
 
 Publications
 ======
-  See my Google Scholar page: [Google Scholar]
+  See my [Google Scholar page](https://scholar.google.com/citations?user=n2RYBTwAAAAJ&hl=en) for an up-to-date list.
   
-Talks
+
+Awards
 ======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
+* Abrahams Postdoctoral Fellowship, Center for Materials Theory, Rutgers University (2023-2026)
+* Zuckerman Foundation STEM Fellowship (2023-2025)
+* Dean of Faculty Award, Ben Gurion University (2016)
+* Department of Physics Award, Ben Gurion University (2016)
   
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+
