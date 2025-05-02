@@ -9,6 +9,6 @@ author_profile: true
 
 I am working on...
 
-{% for post in site.Research %}
+{% for post in site.research %}
   {% include archive-single.html %}
 {% endfor %}
