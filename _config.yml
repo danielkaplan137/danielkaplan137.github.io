@@ -279,9 +279,9 @@ defaults:
       share: true
       comment: true
    # _Research
-    - scope:
+  - scope:
       path: ""
-      type: Research
+      type: research
     values:
       layout: single
       author_profile: false
