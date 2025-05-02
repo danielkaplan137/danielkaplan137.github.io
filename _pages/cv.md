@@ -11,9 +11,14 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D in Theoretical Condensed Matter Physics, Weizmann Institute of Science, 2023
+  * Advisor: Prof. Binghai Yan, title: "Nonlinear response of magnetic topological materials"
+* M.Sc. in Condensed MAtter Physics, Weizmann Institute of Science, 2018
+  * Advisor: Prof. Shahal Ilani, title: "Improving the Properties of the Carbon nanotude Single Electron Transistor"
+* B.Sc. in Physics, Ben Gurion Unviersity of the Negev, 2016
+  * Cum Laude
+* B.Sc. in Materials Science Engineering, Ben Gurion University of the Negev, 2016
+  * Summa cum Laude    
 
 Work experience
 ======
