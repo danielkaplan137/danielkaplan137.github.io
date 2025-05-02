@@ -16,5 +16,5 @@ Before that, I was a PhD student at the Weizmann Institute ([CV](/CV)).
 
  My Research is generously supported by the [Zuckerman Foundation](https://zuckermanstem.org/scholars/dr-daniel-kaplan/), [The Center for Materials Theory at Rutgers University](https://cmt.rutgers.edu/) and the [SAERI](https://www.weizmann.ac.il/sustainability) Intiative at the Weizmann Institute.
  
-![pic1](/images/Zuckerman.svg){: width="250" } ![pci2](/images/CMT.png){: width="250" }
+![pic1](/images/Zuckerman.svg){: width="350" } ![pic2](/images/CMT.png){: width="350" }
 {: .text-justify}
