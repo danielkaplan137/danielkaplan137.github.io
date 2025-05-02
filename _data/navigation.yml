@@ -15,7 +15,7 @@ main:
     url: /CV/    
         
   - title: "Blog"
-    url: /year-archive/
+    url: /blog/
     
   - title: "Software"
     url: /software/
