@@ -228,7 +228,7 @@ collections:
     permalink: /:collection/:path/
   research:
     output: false
-    permalink: /_Research/
+    permalink: /:collection/:path/
 
 
 # These settings control how pages and collections are included in the site
