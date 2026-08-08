@@ -10,6 +10,7 @@
 locale                   : "en-US"
 site_theme               : "bright"
 title                    : "Kaplan Group — Condensed Matter Theory, UCF"
+masthead_title           : "Kaplan Group"
 title_separator          : "|"
 name                     : &name "Daniel Kaplan"
 description              : &description "Condensed matter theory group at the University of Central Florida. Quantum geometry, nonlinear response, topological superconductivity, and machine learning for materials discovery."
