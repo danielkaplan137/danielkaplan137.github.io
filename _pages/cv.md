@@ -1,78 +1,99 @@
 ---
-permalink: /cv/
+layout: archive
 title: "CV"
-description: "Curriculum vitae of Daniel Kaplan, condensed matter theorist at the University of Central Florida."
+permalink: /cv/
 author_profile: true
+description: "Curriculum vitae of Daniel Kaplan, condensed matter theorist at the University of Central Florida. PhD Weizmann Institute of Science, Abrahams Fellow at Rutgers."
 redirect_from:
   - /CV/
+  - /resume
   - /resume/
 ---
 
 <!--
-  PLACEHOLDERS MARKED [ ] BELOW — I don't have your dates, degree years, or
-  award list and won't invent them. Everything unbracketed is drawn from your
-  public profiles (Weizmann PhD, Abrahams Fellowship at Rutgers, Zuckerman
-  Scholar, journal list) and is worth a read-through anyway.
+  CHANGES FROM YOUR OLD PAGE:
 
-  Deliberately NOT included: a citation count. It goes stale the day you
-  write it and reads badly when it's behind. The Scholar link is live.
+  1. permalink is now /cv/ (lowercase) with /CV/ preserved via redirect_from.
+     GitHub Pages is case-sensitive and /cv/ was previously a separate,
+     competing URL in your sitemap. One canonical URL, the other redirects.
+
+  2. Dropped {% raw %}{% include base_path %}{% endraw %}. That is a legacy AcademicPages
+     include, unnecessary in current versions of the template, and it does
+     nothing on a site with an empty baseurl. Harmless but dead.
+
+  3. Added a `description:` — your old page had none, so it inherited the
+     site-wide default and shared a search snippet with every other page.
+
+  4. Fixed two typos carried over from the old source: "nanotude" and
+     "Unviersity".
+
+  5. [BRACKETED] items are the ones I still don't have.
 -->
 
-[Download full CV (PDF)](/files/kaplan-cv.pdf){: .btn .btn--primary}
+<!-- [Download full CV (PDF)](/files/kaplan-cv.pdf){: .btn .btn--primary} -->
 
-## Positions
+## Professional Appointments
 
-**Assistant Professor of Physics**, University of Central Florida — [start date]
-Department of Physics, College of Sciences
-
-**Abrahams Postdoctoral Fellow**, Rutgers, The State University of New Jersey — [dates]
-Department of Physics and Astronomy, and Center for Materials Theory
+- **Aug. 2026 – Present**
+  - Assistant Professor of Physics, Department of Physics, University of Central Florida
+- **2023 – 2026**
+  - Postdoctoral Research Associate, Center for Materials Theory, Rutgers University
+  - Abrahams Postdoctoral Fellow
 
 ## Education
 
-**PhD, Physics**, Weizmann Institute of Science — [year]
-Theoretical condensed matter physics. Thesis: [title], advised by [advisor].
+- **Ph.D. in Theoretical Condensed Matter Physics**, Weizmann Institute of Science, 2023
+  - Advisor: Prof. Binghai Yan
+  - Thesis: *Nonlinear response of magnetic topological materials*
+- **M.Sc. in Condensed Matter Physics**, Weizmann Institute of Science, 2018
+  - Advisor: Prof. Shahal Ilani
+  - Thesis: *Improving the properties of the carbon nanotube single-electron transistor*
+- **B.Sc. in Physics**, Ben-Gurion University of the Negev, 2016
+  - *Cum Laude*
+- **B.Sc. in Materials Science Engineering**, Ben-Gurion University of the Negev, 2016
+  - *Summa Cum Laude*
 
-**[MSc / BSc]**, [institution] — [year]
-
-## Research interests
+## Research Interests
 
 Quantum geometry and nonlinear response · topological and strongly correlated electron systems · unconventional superconductivity · non-equilibrium and light-driven order · first-principles electronic structure · machine learning for materials discovery
 
-## Selected honors
+## Publications
 
-- Zuckerman STEM Leadership Program Scholar
-- Abrahams Postdoctoral Fellowship, Rutgers University
-- [additional fellowships, prizes, travel awards]
+See my [Google Scholar page](https://scholar.google.com/citations?user=n2RYBTwAAAAJ&hl=en) for an up-to-date list. Preprints are on [arXiv](https://arxiv.org/a/kaplan_d_3).
 
-## Selected publications
+Work published in *Nature*, *Nature Nanotechnology*, *Nature Physics*, *Nature Communications*, *Physical Review Letters*, and *PNAS*.
 
 <!--
-  Keep this to 5-8 entries and let Scholar carry the rest. A wall of
-  references buries the ones you actually want read. Bold your name.
-  Link the DOI, not just the arXiv number.
+  Worth considering: add 5-8 SELECTED publications here with full citations
+  and DOI links, above the Scholar link. Two reasons. Search engines index
+  paper titles on your domain, which is how someone searching an exact title
+  lands on your site rather than only on a publisher paywall. And a hiring
+  or funding reader wants to see what you consider your best work, which a
+  citation-sorted Scholar page does not tell them.
 -->
 
-Full list: [Google Scholar](https://scholar.google.com/citations?user=n2RYBTwAAAAJ&hl=en) · [arXiv](https://arxiv.org/a/kaplan_d_3)
+## Awards and Fellowships
 
-Work published in *Nature*, *Nature Nanotechnology*, *Nature Communications*, *Physical Review Letters*, *Physical Review X*, and *PNAS*.
+- Abrahams Postdoctoral Fellowship, Center for Materials Theory, Rutgers University (2023–2026)
+- Zuckerman Foundation STEM Fellowship (2023–2025)
+- Dean of Faculty Award, Ben-Gurion University of the Negev (2016)
+- Department of Physics Award, Ben-Gurion University of the Negev (2016)
 
-1. [Author list]. **[Title]**. *Nature* **[vol]**, [pages] ([year]). [[DOI]]()
-2. [Author list]. **[Title]**. *Physical Review Letters* **[vol]**, [pages] ([year]). [[DOI]]()
-3. [Author list]. **[Title]**. *PNAS* **[vol]**, [pages] ([year]). [[DOI]]()
+## Invited Talks
 
-## Invited talks
+<!-- Worth building out — this is the section that most clearly signals
+     standing in the field, and it's currently absent entirely. -->
 
-- [Venue], [year] — [title]
-- Condensed Matter Seminar, University of Notre Dame, 2025 — collective electronic behavior from incommensurate instabilities
+- Condensed Matter Seminar, University of Notre Dame, 2025
+- [additional]
 
 ## Teaching
 
-[Courses taught, TA appointments, mentoring]
+Coming soon!
 
 ## Service
 
-Referee for [journals]. [Committee work, session organizing, outreach.]
+<!-- Referee for [journals]. [Committee work, session organizing, outreach.]
 
 ## Contact
 
