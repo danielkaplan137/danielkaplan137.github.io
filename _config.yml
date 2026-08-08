@@ -9,13 +9,13 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "bright"
-title                    : "Daniel Kaplan"
-title_separator          : "-"
+title                    : "Kaplan Group — Condensed Matter Theory, UCF"
+title_separator          : "|"
 name                     : &name "Daniel Kaplan"
-description              : &description "personal description"
+description              : &description "Condensed matter theory group at the University of Central Florida. Quantum geometry, nonlinear response, topological superconductivity, and machine learning for materials discovery."
 url                      : https://danielkaplan137.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "https://github.com/danielkaplan137"
+repository               : "danielkaplan137/danielkaplan137.github.io" # CHANGED: must be "owner/repo", not a URL. jekyll-github-metadata cannot parse the URL form.
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -23,20 +23,20 @@ repository               : "https://github.com/danielkaplan137"
 author:
   # Biographic information
   avatar           : "headshot.jpg"
-  name             : "Daniel"
+  name             : "Daniel Kaplan"
   pronouns         : # example: "she/her"  
   bio              : "Condensed Matter Theorist"
-  #location         : ""
-  employer         : "Rutgers University, New Jersey"
+  location         : "Orlando, Florida"
+  employer         : "University of Central Florida"
   uri              : # URL
-  email            : "d.kaplan1@rutgers.edu" 
+  email            : "daniel.kaplan@ucf.edu"
 
   # Academic websites
   academia         : # URL
-  arxiv            : "http://arxiv.org/a/kaplan_d_3"
+  arxiv            : "https://arxiv.org/a/kaplan_d_3"
   googlescholar    : "https://scholar.google.com/citations?user=n2RYBTwAAAAJ&hl=en"
   impactstory      : # URL
-  #orcid            : "http://orcid.org/yourorcidurl"
+  #orcid            : "https://orcid.org/XXXX-XXXX-XXXX-XXXX"   # uncomment and fill in
   semantic         : # URL
   #pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   researchgate     : # URL
@@ -87,9 +87,9 @@ publication_category:
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
-breadcrumbs              : false # true, false (default)
+breadcrumbs              : false # true, false (default) — LEFT FALSE ON PURPOSE, see notes
 words_per_minute         : 160
-future                   : true
+future                   : false # CHANGED: was true, which is what published the post dated 2199-01-01
 read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
 talkmap_link             : false      #change to true to add link to talkmap on talks page
 comments:
@@ -124,8 +124,8 @@ atom_feed:
 
 
 # SEO Related
-google_site_verification :
-bing_site_verification   :
+google_site_verification :          # paste token from Google Search Console > Settings > Ownership verification > HTML tag
+bing_site_verification   :          # paste token from Bing Webmaster Tools
 alexa_site_verification  :
 yandex_site_verification :
 
@@ -137,18 +137,23 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 :  # Open Graph/Twitter default site image
+og_image                 :  # Open Graph/Twitter default site image — see notes before setting
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+  type                   : Person
+  name                   : *name
+  links:
+    - "https://scholar.google.com/citations?user=n2RYBTwAAAAJ&hl=en"
+    - "https://arxiv.org/a/kaplan_d_3"
+    - "https://github.com/danielkaplan137"
+    # Add your ORCID once you have the URL, and your UCF faculty profile page
+    # as soon as it exists — that one is the highest-value entry in this list.
 
 
 # Analytics
 analytics:
-  provider               :  "false" # false (default), "google", "google-universal", "google-analytics-4", "custom"
+  provider               : false # CHANGED: was the quoted string "false", which is truthy in Liquid
   google:
     tracking_id          :
 
@@ -185,6 +190,7 @@ exclude:
   - README
   - tmp
   - vendor
+  - _pages_copy
 keep_files:
   - .git
   - .svn
@@ -307,7 +313,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: Etc/UTC # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: America/New_York # CHANGED from Etc/UTC — affects displayed post dates
 
 
 # Plugins
