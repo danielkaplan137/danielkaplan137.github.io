@@ -1,0 +1,71 @@
+{%- comment -%}
+  _includes/head/custom.html — REVISED FOR UCF.
+  Replaces the earlier version, which asserted a Rutgers affiliation.
+
+  Verify the hook exists before relying on this:
+      grep -n "head/custom" _includes/head.html
+
+  _includes/seo.html already emits a Person node with `sameAs` from the
+  `social:` block. This adds only what seo.html cannot express: the group as
+  an organization, and the UCF affiliation. Do not add a second Person node.
+{%- endcomment -%}
+
+{% if page.url == "/" %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "additionalType": "https://schema.org/ResearchOrganization",
+  "name": "Kaplan Group",
+  "alternateName": "Kaplan Condensed Matter Theory Group",
+  "url": "{{ site.url }}{{ site.baseurl }}/",
+  "description": {{ site.description | jsonify }},
+  "foundingDate": "2026",
+  "parentOrganization": {
+    "@type": "CollegeOrUniversity",
+    "name": "University of Central Florida",
+    "url": "https://www.ucf.edu/",
+    "department": {
+      "@type": "Organization",
+      "name": "Department of Physics",
+      "url": "https://sciences.ucf.edu/physics/"
+    }
+  },
+  "location": {
+    "@type": "Place",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "4111 Libra Drive",
+      "addressLocality": "Orlando",
+      "addressRegion": "FL",
+      "postalCode": "32816",
+      "addressCountry": "US"
+    }
+  },
+  "member": {
+    "@type": "Person",
+    "name": "Daniel Kaplan",
+    "jobTitle": "Assistant Professor of Physics",
+    "email": "mailto:daniel.kaplan@ucf.edu",
+    "affiliation": {
+      "@type": "CollegeOrUniversity",
+      "name": "University of Central Florida"
+    },
+    "alumniOf": {
+      "@type": "CollegeOrUniversity",
+      "name": "Weizmann Institute of Science"
+    },
+    "knowsAbout": [
+      "Condensed matter theory",
+      "Quantum geometry",
+      "Nonlinear optical response",
+      "Topological materials",
+      "Unconventional superconductivity",
+      "Non-equilibrium quantum matter",
+      "Density functional theory",
+      "Machine learning for materials discovery"
+    ]
+  }
+}
+</script>
+{% endif %}
